@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import numby as np
 st.title('🚕 Pick up Trip')
 st.info('welcome to our taxi driver app based on machine learning')
 
