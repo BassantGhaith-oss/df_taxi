@@ -4,7 +4,7 @@ import pandas as pd
 st.title('🚕 Pick up Trip')
 st.info('welcome to our taxi driver app based on machine learning')
 
-model = joblib.load("model.pkl")
+model = joblib.load("taxi_model.pkl")
 
 distance = st.number_input("Distance")
 passengers = st.number_input("Passengers")
