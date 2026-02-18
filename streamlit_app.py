@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title('🎈 Pick up Trip')
+st.title('🚕 Pick up Trip')
 
-st.write('Hello world!')
+st.info('welcome to our taxi driver app based on machine learning')
